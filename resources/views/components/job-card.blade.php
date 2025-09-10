@@ -16,8 +16,6 @@
     <x-tag>{{ $job->category }}</x-tag>
 </div>
 </div>
-<p class="text-sm text-slate-500 mb-4">
-    {!! nl2br(e($job->description))!!}</p>
     <div>
         <x-link-button :href="route('jobs.show', $job)">
             Show
