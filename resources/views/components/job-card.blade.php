@@ -25,8 +25,7 @@
 </div>
 </div>
     <div>
-        <x-link-button :href="route('jobs.show', $job)">
-            Show
-        </x-link-button>
+        
+    {{$slot}}
     </div>
         </x-card>
